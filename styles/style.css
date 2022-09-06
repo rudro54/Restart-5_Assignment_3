@@ -1,3 +1,12 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.carousel-inner {
+    height: 700px;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-30%);
+}
