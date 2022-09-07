@@ -10,3 +10,8 @@ body {
     top: 50%;
     transform: translateY(-30%);
 }
+
+.discover-heading {
+    height: 190px;
+    width: 606px;
+}
