@@ -59,6 +59,11 @@ body {
     color: #777777;
 }
 
+
+.companies-part .company-names img {
+    padding-left: 40px;
+}
+
 footer {
 
     background-color: #161616;
