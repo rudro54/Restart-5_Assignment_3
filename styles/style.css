@@ -43,6 +43,19 @@ body {
     opacity: 100;
 }
 
+
+.ready-to-join h5 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.ready-to-join p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .card {
     border: none;
 }
