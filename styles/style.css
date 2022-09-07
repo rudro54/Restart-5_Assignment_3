@@ -15,7 +15,7 @@ body {
 /* darker image of slider */
 
 .slide {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 /* .carousel-inner > .carousel-item > .carousel-caption > .carouselt-title */
@@ -23,7 +23,7 @@ body {
 .carousel-caption {
 
 
-    transform: translateY(-30%);
+    transform: translateY(-60%);
     text-align: center;
     top: 50%;
 
@@ -37,7 +37,7 @@ body {
 }
 
 .carousel-content {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
     color: #f4f4f4;
     opacity: 100;
@@ -60,9 +60,7 @@ body {
 }
 
 
-.companies-part .company-names img {
-    padding-left: 40px;
-}
+
 
 footer {
 
