@@ -1,3 +1,4 @@
+/* common codes */
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -6,12 +7,45 @@ body {
     height: 700px;
 }
 
+/* darker image of slider */
+
+.slide {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+/* .carousel-inner > .carousel-item > .carousel-caption > .carouselt-title */
+
 .carousel-caption {
     top: 50%;
     transform: translateY(-30%);
 }
 
-.discover-heading {
-    height: 190px;
-    width: 606px;
+.carousel-title {
+    font-size: 65px;
+    font-weight: 600;
+    color: #ffffff;
+    opacity: 100;
+}
+
+.carousel-content {
+    font-size: 18px;
+    font-weight: 400;
+    color: #f4f4f4;
+    opacity: 100;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 45px;
+    font-weight: 600;
+    color: #1D1D1D;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
 }
