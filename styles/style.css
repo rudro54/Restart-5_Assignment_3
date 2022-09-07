@@ -3,13 +3,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.carousel-inner .item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 100%;
+.carousel-item img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 10px;
 }
+
+
 
 /* darker image of slider */
 
@@ -29,14 +30,14 @@ body {
 }
 
 .carousel-title {
-    font-size: 65px;
+    font-size: 35px;
     font-weight: 600;
     color: #ffffff;
     opacity: 100;
 }
 
 .carousel-content {
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 400;
     color: #f4f4f4;
     opacity: 100;
