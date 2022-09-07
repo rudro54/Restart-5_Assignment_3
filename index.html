@@ -160,74 +160,75 @@
                             let you know some frequently asked quesitons and answers</p>
                     </div>
             </section>
-            <section class="frequently-asked-question">
+            <section class="frequently-asked-question d-flex justify-content-center">
                 <!-- -- accordion part starts -->
+                <div>
+                    <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    What is the difference between flexbox and grid ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Grid is made for two-dimensional layout while Flexbox is for
+                                    one. This means Flexbox can work on either row or columns at a time, but Grids can
+                                    work on both. Flexbox, gives you more flexibility while working on either element
+                                    (row or column).</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    What is the difference between bootstrap and tailwind ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Tailwind and Bootstrap both are css framework and are used
+                                    to help set up a project’s UI to help improve development time and, ultimately, the
+                                    user experience.Bootstrap is much older and has made many changes over the years,
+                                    Tailwind, however, is much younger and smaller than Bootstrap, which results in
+                                    faster loading times </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    what is css box model ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">In CSS, the term "box model" is used when talking about
+                                    design and layout.
 
-                <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">
-                                What is the difference between flexbox and grid ?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Grid is made for two-dimensional layout while Flexbox is for
-                                one. This means Flexbox can work on either row or columns at a time, but Grids can
-                                work on both. Flexbox, gives you more flexibility while working on either element
-                                (row or column).</div>
+                                    The CSS box model is essentially a box that wraps around every HTML element. It
+                                    consists of: margins, borders, padding, and the actual content. The image below
+                                    illustrates the box model.</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                aria-controls="flush-collapseTwo">
-                                What is the difference between bootstrap and tailwind ?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Tailwind and Bootstrap both are css framework and are used
-                                to help set up a project’s UI to help improve development time and, ultimately, the
-                                user experience.Bootstrap is much older and has made many changes over the years,
-                                Tailwind, however, is much younger and smaller than Bootstrap, which results in
-                                faster loading times </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                aria-controls="flush-collapseThree">
-                                what is css box model ?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">In CSS, the term "box model" is used when talking about
-                                design and layout.
-
-                                The CSS box model is essentially a box that wraps around every HTML element. It
-                                consists of: margins, borders, padding, and the actual content. The image below
-                                illustrates the box model.</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                aria-controls="flush-collapseThree">
-                                What is symantic tag ?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseFour" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">The HTML semantics refers to the tags that provide meaning
-                                to an HTML page rather than just presentation. It makes HTML more comprehensible by
-                                better defining the different sections and layout of web pages.</div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    What is symantic tag ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">The HTML semantics refers to the tags that provide meaning
+                                    to an HTML page rather than just presentation. It makes HTML more comprehensible by
+                                    better defining the different sections and layout of web pages.</div>
+                            </div>
                         </div>
                     </div>
                 </div>
